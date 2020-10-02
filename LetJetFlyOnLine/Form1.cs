@@ -23,6 +23,7 @@ namespace LetJetFlyOnLine
 
         List<Point> coords;
         Image plane;
+        List<PictureBox> pictures = new List<PictureBox>();
        
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -30,7 +31,7 @@ namespace LetJetFlyOnLine
             //MessageBox.Show(Math.Sin((90*Math.PI)/180).ToString());
             plane = Image.FromFile("F-23A_Black_Widow_II(1).png");
 
-            //Deleted test commment///////////////////////////
+            
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
@@ -269,6 +270,11 @@ namespace LetJetFlyOnLine
             //{
             //    currentCoordIndex = 0;
             //}
+
+        }
+
+        private void panel1_Click(object sender, EventArgs e)
+        {
 
         }
     }
