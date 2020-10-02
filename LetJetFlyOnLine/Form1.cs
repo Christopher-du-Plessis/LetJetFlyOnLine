@@ -29,6 +29,9 @@ namespace LetJetFlyOnLine
 
             //MessageBox.Show(Math.Sin((90*Math.PI)/180).ToString());
             plane = Image.FromFile("F-23A_Black_Widow_II(1).png");
+
+            //GIT PUSH TEST CODE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////
+            string MAXWELL_was_here_delete_this_is_a_test = "Useless text";
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
